@@ -56,7 +56,7 @@
             </div>
           </div>
           <div
-            style="display: flex;flex-wrap: wrap;margin-top: 15px;gap: 15px;justify-content: space-between;box-sizing: border-box;">
+            style="display: flex;flex-wrap: wrap;margin-top: 15px;gap: 15px;justify-content: flex-start;box-sizing: border-box;">
             <div class="device-item" v-for="(item,index) in deviceList" :key="index">
               <div style="display: flex;justify-content: space-between;">
                 <div style="font-weight: 700;font-size: 18px;text-align: left;color: #3d4566;">
